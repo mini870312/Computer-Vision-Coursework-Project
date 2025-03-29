@@ -1,3 +1,6 @@
+# PCA Analysis with KNN Classifiers
+
+
 The figure below presents the MNIST classification results using KNN with Euclidean and Mahalanobis distances across varying numbers of PCA components, with each line representing a different choice of k values. When the number of components is reduced to 2, the classification accuracy for both distance metric falls below 50%. However, accuracy increases sharply, surpassing 90% at 30 and 50 components. Specifically, the highest accuracy of 97.76% is achieved with 50 PCA components using Euclidean distance, while Mahalanobis distance reaches its peak accuracy of 97.12% with 30 components; both peak accuracies occur when k=3. Beyond this point, the accuracy with Euclidean distance remains stable as the number of components increases, whereas the accuracy with Mahalanobis distance gradually declines, dropping below 60% at 500 components and maintaining low accuracy thereafter across all k values.
 
  
